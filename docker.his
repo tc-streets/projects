@@ -1,0 +1,42 @@
+$ docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
+docker
+docker build -t getting-started .
+docker exec -it my_busybox sh
+docker exec -it test-mysql bash
+docker exec -t -i dockerfile/nginx /bin/bash
+docker images
+docker kill $(docker ps -q)
+docker port static-site
+docker ps
+docker ps -a
+docker ps -aq
+docker pull busybox
+docker pull mysql:latest
+docker pull nginx
+docker pull shakyshane/cra-docker:latest
+docker rm -vf $(docker ps -aq)
+docker run --help
+docker run --name my_busybox busybox
+docker run --name my_busybox busybox| nvim -
+docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
+docker run --rm -it prakhar1989/static-site
+docker run -d -P --name static-site prakhar1989/static-site
+docker run -d -p 127.0.0.1:3000:3000 getting-started
+docker run -it -p 80:80 dockerfile/nginx /bin/sh
+docker run -it -p 80:80 nginx /bin/bash
+docker run -it -p 80:80 nginx /bin/sh
+docker run -it busybox sh
+docker run -it ubuntu bash
+docker run busybox
+docker run busybox echo "hello from busybox"\nhello from busybox
+docker run busybox ls
+docker run hello-world
+docker-compose --version
+dockers
+dockers(){\ndocker ps -a\n}\n
+git clone git clone https://github.com/docker/getting-started-app.git
+git clone https://github.com/docker/getting-started-app.git
+mv docker Dockerfile
+trash date docker file hello-world
+trash docker.txt
+v docker

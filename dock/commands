@@ -1,0 +1,26 @@
+docker
+docker pull mysql:latest
+$ docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
+docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
+docker exec -it test-mysql bash
+docker exec -it my_busybox sh
+docker kill $(docker ps -q)
+docker run --name my_busybox busybox
+docker ps
+docker rm -vf $(docker ps -aq)
+docker ps -aq
+docker run --name my_busybox busybox| nvim -
+docker ps -a
+docker run hello-world
+docker run -it ubuntu bash
+docker pull busybox
+docker images
+docker run busybox
+dockers(){\ndocker ps -a\n}\n
+dockers
+docker run busybox echo "hello from busybox"\nhello from busybox
+docker run busybox ls
+docker run -it busybox sh
+docker run --rm -it prakhar1989/static-site
+docker run -d -P --name static-site prakhar1989/static-site
+docker port static-site

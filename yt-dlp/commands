@@ -1,0 +1,4 @@
+yt-dlp -o '%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s' https://www.youtube.com/watch?v=t5b20oLaIaw
+yt-dlp -o 'new css fireship' https://www.youtube.com/watch\?v\=A89FMtIkWKc\&t\=63s
+https://ostechnix.com/yt-dlp-tutorial/
+
